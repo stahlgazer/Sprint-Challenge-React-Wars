@@ -26,7 +26,9 @@ export default function PeopleGrid() {
               mass={char.mass}
               haircolor={char.hair_color}
               skincolor={char.skin_color}
+              eyecolor={char.eye_color}
               gender={char.gender}
+              birth={char.birth_year}
               />
             );
           })}
