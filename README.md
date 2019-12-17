@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React solves the problem of creating large applications with data that changes dynamically.
+
 - [ ] What does it mean to _think_ in react?
+
+To think of how you're going to build in the terms of React, like your componenets and their hierarchy, where state will be held, etc.
 
 - [ ] Describe state.
 
+An object that represents local data that can be changed inside of a component or App.
+
 - [ ] Describe props.
 
+Props allow components to pass down data from parent components to child components.
+
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+
+When one thing affects other things outside of the scope of it's function. you can sync effects using useEffect.
 
 ## Project Set Up
 
